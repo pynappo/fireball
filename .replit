@@ -1,2 +1,2 @@
 language = "java10"
-run = "javac src/com/company/*.java"
+run = "javac src/com/company/*.java -d compiled && java --class-path compiled com.company.Main"
