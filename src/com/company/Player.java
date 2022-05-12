@@ -1,5 +1,6 @@
 package com.company;
 
+// Maybe have a Wizard class that extends the Player with a certain moveset and move some of these there
 public class Player {
     private int health = 1;
     private int consecutiveShieldCount = 0;
@@ -14,5 +15,4 @@ public class Player {
     public boolean canFireball () { return ammo > 0; }
     public int getHealth() { return health; }
     public int getAmmo() { return ammo; }
-    public int
 }
