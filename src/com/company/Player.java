@@ -11,8 +11,17 @@ public class Player {
         this.name = name;
     }
     public void decreaseHealth (int amount) { health -= amount; }
+    public void changeShieldCount(int amount) {
+      if (amount == 0) {
+        consecutiveShieldCount = 0;
+      }
+      else {
+        consecutiveShieldCount += amount;
+      }
+    }
     public boolean canShield() { return consecutiveShieldCount >= 3; }
     public boolean canFireball () { return ammo > 0; }
     public int getHealth() { return health; }
     public int getAmmo() { return ammo; }
+    public String getName() { return name; }
 }
