@@ -2,4 +2,6 @@
 
 # Fireball
 
-A past project of me and some friends to create a game based on the classic game "Fireball".
+A past project of some friends and I made, based on the classic game "Fireball".
+
+Uses native javax.Swing for the GUI.
